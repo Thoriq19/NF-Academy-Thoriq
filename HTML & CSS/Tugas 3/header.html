@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling untuk Header */
+.header-container {
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to right,  #003366, #005b7f); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "poppins", serif;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Banner Gambar */
+.header-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* Jika ada background image tambahan */
+.header-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('images/banner-1050629_1280.webp') no-repeat center center;
+    background-size: cover;
+    opacity: 0.6; /* Transparansi agar teks tetap terlihat */
+    z-index: -2;
+}
+
+/* Styling untuk Judul Website */
+.header-title {
+    font-size: 26px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+}
+
+/* Styling untuk Menu Navigasi */
+.navbar {
+    margin-top: 10px;
+    font-size: 20px;
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 15px;
+    transition: 0.3s;
+}
+.navbar a:hover {
+    color: #FFD700;
+}
+
+/* untuk logo */
+.logo {
+    width: 100px;
+    height: auto;
+}
+.logo-left{
+    margin-right: 15px;
+}
+    </style>
+</head>
+<body>
+   <div class="header-container">
+    <img src="images/banner-1050629_1280.webp" alt="Banner website">
+    <div class="header-title">
+        Wellcome to My Profile Website
+        <div class="navbar">
+            <a href="home.html" target="main">Home</a>
+            <a href="MyStudy.html" target="main">MyStudy</a>
+            <a href="Gallery.html" target="main">Gallery</a>
+        </div>
+   </div>
+</body>
+</html>

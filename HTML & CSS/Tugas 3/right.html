@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Right Menu</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Mengatur tampilan body */
+        body {
+            font-family: "poppins", serif;
+            background-color: #f4f4f4;
+            padding: 10px;
+            overflow: hidden; /* Menghindari scrollbar horizontal */
+        }
+
+        /* Container sidebar */
+        .sidebar {
+            width: 100%;
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Judul */
+        .sidebar h3 {
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            color: #005b7f;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        /* Icon Menu di Sebelah Judul */
+        .menu-icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 8px;
+        }
+
+        /* Fieldset */
+        fieldset {
+            border: 2px solid #005b7f;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        legend {
+            font-weight: bold;
+            color: #005b7f;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            padding: 8px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        ul li:last-child {
+            border-bottom: none;
+        }
+
+        /* Gaya untuk link */
+        ul li a {
+            text-decoration: none;
+            color: #005b7f;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            transition: 0.3s;
+        }
+
+        ul li a:hover {
+            color: #003f5c;
+        }
+
+        /* Ikon untuk setiap materi */
+        .icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h3>
+            <img src="images/to-do-list.png" class="menu-icon" alt="Menu Icon"> Link Materi Pembelajaran
+        </h3>
+        <fieldset>
+            <legend>Materi</legend>
+            <ul>
+                <li><a href="https://www.w3schools.com/html/" target="_blank">
+                    <img src="images/html.png" class="icon" alt="HTML Icon"> HTML</a></li>
+                <li><a href="https://www.w3schools.com/css/" target="_blank">
+                    <img src="images/css-file.png" class="icon" alt="CSS Icon"> CSS</a></li>
+                <li><a href="https://www.w3schools.com/js/" target="_blank">
+                    <img src="images/JavaScript.png" class="icon" alt="JavaScript Icon"> JavaScript</a></li>
+                <li><a href="https://react.dev/" target="_blank">
+                    <img src="images/ReactJS.png" class="icon" alt="React Icon"> ReactJS</a></li>
+                <li><a href="https://www.petanikode.com/laravel-11/" target="_blank">
+                    <img src="images/Laravel-Logo.png" class="icon" alt="Laravel Icon"> Laravel</a></li>
+                <li><a href="https://www.w3schools.com/nodejs/" target="_blank">
+                    <img src="images/NodeJS.png" class="icon" alt="NodeJS Icon">NodeJS</a></li>
+            </ul>
+        </fieldset>
+    </div>
+</body>
+</html>
