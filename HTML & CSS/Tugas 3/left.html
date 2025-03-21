@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Left Menu</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Mengatur tampilan body */
+        body {
+            font-family: "poppins", serif;
+            background-color: #f4f4f4;
+            padding: 10px;
+            overflow: hidden; /* Menghilangkan scrollbar horizontal */
+        }
+
+        /* Sidebar container */
+        .sidebar {
+            width: 100%;
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Judul */
+        .sidebar h3 {
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            color: #005b7f;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        /* Logo Instagram di sebelah tulisan */
+        .sidebar h3 img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+
+        /* Fieldset untuk daftar teman */
+        fieldset {
+            border: 2px solid #005b7f;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        legend {
+            font-weight: bold;
+            color: #005b7f;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            padding: 10px 5px;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            align-items: center;
+        }
+
+        ul li:last-child {
+            border-bottom: none;
+        }
+
+        /* Gaya untuk link */
+        ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+        }
+
+        ul li a:hover {
+            color: #005b7f;
+        }
+
+        /* Gaya ikon Instagram */
+        .icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h3>
+            <img src="images/instagram-logo.png" alt="Instagram Logo"> Sosial Media Teman
+        </h3>
+        <fieldset>
+            <legend>Daftar Teman</legend>
+            <ul>
+                <li><a href="https://www.instagram.com/moezikri?igsh=MXRrMm82ODkxM2o1dA==" target="_blank">
+                    <img src="images/instagram-logo.png" class="icon" alt="Instagram Icon"> Muhammad Zikri</a></li>
+                <li><a href="https://www.instagram.com/fkrinafl_?igsh=b3M3a3p6NmdweGNm" target="_blank">
+                    <img src="images/instagram-logo.png" class="icon" alt="Instagram Icon"> Fikri Naufal</a></li>
+                <li><a href="https://www.instagram.com/haikallsyauqi?igsh=dGFhN2FlbDk0dDQ=" target="_blank">
+                    <img src="images/instagram-logo.png" class="icon" alt="Instagram Icon"> Haikal Syauqi</a></li>
+                <li><a href="https://www.instagram.com/taufikk_hidyt?igsh=MTFuMG44aHNiY3lkOA==" target="_blank">
+                    <img src="images/instagram-logo.png" class="icon" alt="Instagram Icon"> Taufik Hidayat</a></li>
+                <li><a href="https://www.instagram.com/ekyova?igsh=ejZ0YTk5NTByMmF1" target="_blank">
+                    <img src="images/instagram-logo.png" class="icon" alt="Instagram Icon"> Eky Yova</a></li>
+            </ul>
+        </fieldset>
+    </div>
+</body>
+</html>
