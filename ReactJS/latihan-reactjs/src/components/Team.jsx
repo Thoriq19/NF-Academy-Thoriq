@@ -1,49 +1,41 @@
-import React from "react";
-import { Container, Row, Col, Card, CardBody, CardTitle, CardText } from "reactstrap";
+import React from 'react';
+import { Container, Row, Col, Card, CardBody, CardTitle, CardText } from 'reactstrap';
+
+const teamData = [
+  { name: 'Andi', role: 'Frontend Developer' },
+  { name: 'Budi', role: 'Backend Developer' },
+  { name: 'Citra', role: 'UI/UX Designer' },
+  { name: 'Doni', role: 'Golang Developer' }
+];
 
 const Team = () => {
   return (
-    <Container
-      fluid
-      className="d-flex flex-column align-items-center justify-content-center"
-      style={{ minHeight: "calc(100vh - 56px)" }}
+    <div
+      style={{
+        background: "linear-gradient(to right, #141e30, #243b55)",
+        minHeight: "100vh",
+        color: "white",
+        paddingTop: "3rem",
+        paddingBottom: "3rem"
+      }}
     >
-      <h2 className="mb-4">Team Kami</h2>
-      <Row className="justify-content-center w-100">
-        <Col md="3" className="mb-3">
-          <Card className="text-center">
-            <CardBody>
-              <CardTitle tag="h5">Andi</CardTitle>
-              <CardText>Frontend Developer</CardText>
-            </CardBody>
-          </Card>
-        </Col>
-        <Col md="3" className="mb-3">
-          <Card className="text-center">
-            <CardBody>
-              <CardTitle tag="h5">Budi</CardTitle>
-              <CardText>Backend Developer</CardText>
-            </CardBody>
-          </Card>
-        </Col>
-        <Col md="3" className="mb-3">
-          <Card className="text-center">
-            <CardBody>
-              <CardTitle tag="h5">Citra</CardTitle>
-              <CardText>UI/UX Designer</CardText>
-            </CardBody>
-          </Card>
-        </Col>
-        <Col md="3" className="mb-3">
-          <Card className="text-center">
-            <CardBody>
-              <CardTitle tag="h5">Doni</CardTitle>
-              <CardText>Golang</CardText>
-            </CardBody>
-          </Card>
-        </Col>
-      </Row>
-    </Container>
+      <Container className="text-center">
+        <h2 style={{ marginBottom: "1rem" }}>Team Kami</h2>
+        <p style={{ marginBottom: "3rem" }}>Kami adalah tim yang solid dalam pengembangan web modern.</p>
+        <Row className="justify-content-center">
+          {teamData.map((member, index) => (
+            <Col md="3" sm="6" xs="10" key={index} className="mb-4">
+              <Card style={{ backgroundColor: "#ffffff22", border: "none", color: "white", borderRadius: "12px" }}>
+                <CardBody>
+                  <CardTitle tag="h5">{member.name}</CardTitle>
+                  <CardText>{member.role}</CardText>
+                </CardBody>
+              </Card>
+            </Col>
+          ))}
+        </Row>
+      </Container>
+    </div>
   );
 };
 
