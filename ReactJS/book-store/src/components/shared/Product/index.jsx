@@ -1,3 +1,5 @@
+
+
 export default function Product(){
     return(
         <>
@@ -20,91 +22,69 @@ export default function Product(){
       <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
         <div className="col">
           <div className="card shadow-sm">
-            <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+          <img src="https://books.google.co.id/books/publisher/content?id=pJryEAAAQBAJ&hl=id&pg=PP1&img=1&zoom=3&bul=1&sig=ACfU3U2FBl4BuHWVKQzWh2n4ZMt35IFJbg&w=1280" 
+          className="bd-placeholder-img card-img-top" alt="Book Thumbnail"
+          style={{
+            width: '100%',
+            height: '225px',
+            objectFit: 'contain',
+            backgroundColor:'#fff'
+            }}
+            />
             <div className="card-body">
               <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
-                  <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
+                  <button type="button" className="btn btn-sm btn-outline-secondary">Buy</button>
+                  <button type="button" className="btn btn-sm btn-outline-secondary">View Details</button>
                 </div>
-                <small className="text-body-secondary">9 mins</small>
+                
               </div>
             </div>
           </div>
         </div>
         <div className="col">
           <div className="card shadow-sm">
-            <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+          <img src="https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/products/9397p4603v.jpg" 
+          className="bd-placeholder-img card-img-top" alt="Book Thumbnail"
+          style={{
+            width: '100%',
+            height: '225px',
+            objectFit: 'contain',
+            backgroundColor:'#fff'
+            }}
+            />
             <div className="card-body">
               <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
-                  <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
+                  <button type="button" className="btn btn-sm btn-outline-secondary">Buy</button>
+                  <button type="button" className="btn btn-sm btn-outline-secondary">View Details</button>
                 </div>
-                <small className="text-body-secondary">9 mins</small>
+                
               </div>
             </div>
           </div>
         </div>
         <div className="col">
           <div className="card shadow-sm">
-            <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+          <img src="https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/items/9786239726218.jpg" 
+          className="bd-placeholder-img card-img-top" alt="Book Thumbnail"
+          style={{
+            width: '100%',
+            height: '225px',
+            objectFit: 'contain',
+            backgroundColor:'#fff'
+            }}
+            />
             <div className="card-body">
               <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
-                  <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
+                  <button type="button" className="btn btn-sm btn-outline-secondary">Buy</button>
+                  <button type="button" className="btn btn-sm btn-outline-secondary">View Details</button>
                 </div>
-                <small className="text-body-secondary">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="col">
-          <div className="card shadow-sm">
-            <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-            <div className="card-body">
-              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div className="d-flex justify-content-between align-items-center">
-                <div className="btn-group">
-                  <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small className="text-body-secondary">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col">
-          <div className="card shadow-sm">
-            <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-            <div className="card-body">
-              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div className="d-flex justify-content-between align-items-center">
-                <div className="btn-group">
-                  <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small className="text-body-secondary">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col">
-          <div className="card shadow-sm">
-            <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-            <div className="card-body">
-              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div className="d-flex justify-content-between align-items-center">
-                <div className="btn-group">
-                  <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small className="text-body-secondary">9 mins</small>
+                
               </div>
             </div>
           </div>
@@ -112,45 +92,139 @@ export default function Product(){
 
         <div className="col">
           <div className="card shadow-sm">
-            <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+          <img src="https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/items/pulang_tere_liye.jpeg" 
+          className="bd-placeholder-img card-img-top" alt="Book Thumbnail"
+          style={{
+            width: '100%',
+            height: '225px',
+            objectFit: 'contain',
+            backgroundColor:'#fff'
+            }}
+            />
             <div className="card-body">
               <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
-                  <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
+                  <button type="button" className="btn btn-sm btn-outline-secondary">Buy</button>
+                  <button type="button" className="btn btn-sm btn-outline-secondary">View Details</button>
                 </div>
-                <small className="text-body-secondary">9 mins</small>
+                
               </div>
             </div>
           </div>
         </div>
         <div className="col">
           <div className="card shadow-sm">
-            <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+          <img src="https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/items/pergi_tere_liye.jpeg" 
+          className="bd-placeholder-img card-img-top" alt="Book Thumbnail"
+          style={{
+            width: '100%',
+            height: '225px',
+            objectFit: 'contain',
+            backgroundColor:'#fff'
+            }}
+            />
             <div className="card-body">
               <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
-                  <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
+                  <button type="button" className="btn btn-sm btn-outline-secondary">Buy</button>
+                  <button type="button" className="btn btn-sm btn-outline-secondary">View Details</button>
                 </div>
-                <small className="text-body-secondary">9 mins</small>
+              
               </div>
             </div>
           </div>
         </div>
         <div className="col">
           <div className="card shadow-sm">
-            <svg className="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+          <img src="https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/items/pulang-pergi_tere_liye.jpeg" 
+          className="bd-placeholder-img card-img-top" alt="Book Thumbnail"
+          style={{
+            width: '100%',
+            height: '225px',
+            objectFit: 'contain',
+            backgroundColor:'#fff'
+            }}
+            />
             <div className="card-body">
               <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div className="d-flex justify-content-between align-items-center">
                 <div className="btn-group">
-                  <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
+                  <button type="button" className="btn btn-sm btn-outline-secondary">Buy</button>
+                  <button type="button" className="btn btn-sm btn-outline-secondary">View Details</button>
                 </div>
-                <small className="text-body-secondary">9 mins</small>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="col">
+          <div className="card shadow-sm">
+          <img src="https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/items/9786025508721_saudade.jpg" 
+          className="bd-placeholder-img card-img-top" alt="Book Thumbnail"
+          style={{
+            width: '100%',
+            height: '225px',
+            objectFit: 'contain',
+            backgroundColor:'#fff'
+            }}
+            />
+            <div className="card-body">
+              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div className="d-flex justify-content-between align-items-center">
+                <div className="btn-group">
+                  <button type="button" className="btn btn-sm btn-outline-secondary">Buy</button>
+                  <button type="button" className="btn btn-sm btn-outline-secondary">View Details</button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col">
+          <div className="card shadow-sm">
+          <img src="https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/items/9786239554552.jpg" 
+          className="bd-placeholder-img card-img-top" alt="Book Thumbnail"
+          style={{
+            width: '100%',
+            height: '225px',
+            objectFit: 'contain',
+            backgroundColor:'#fff'
+            }}
+            />
+            <div className="card-body">
+              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div className="d-flex justify-content-between align-items-center">
+                <div className="btn-group">
+                  <button type="button" className="btn btn-sm btn-outline-secondary">Buy</button>
+                  <button type="button" className="btn btn-sm btn-outline-secondary">View Details</button>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col">
+          <div className="card shadow-sm">
+          <img src="https://image.gramedia.net/rs:fit:0:0/plain/https://cdn.gramedia.com/uploads/picture_meta/2023/8/12/qxt63qkjxklcjyfcfbwr8w.jpg" 
+          className="bd-placeholder-img card-img-top" alt="Book Thumbnail"
+          style={{
+            width: '100%',
+            height: '225px',
+            objectFit: 'contain',
+            backgroundColor:'#fff'
+            }}
+            />
+            <div className="card-body">
+              <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div className="d-flex justify-content-between align-items-center">
+                <div className="btn-group">
+                  <button type="button" className="btn btn-sm btn-outline-secondary">Buy</button>
+                  <button type="button" className="btn btn-sm btn-outline-secondary">View Details</button>
+                </div>
+                
               </div>
             </div>
           </div>
